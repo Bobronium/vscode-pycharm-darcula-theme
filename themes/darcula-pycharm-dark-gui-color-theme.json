@@ -263,6 +263,8 @@ Python
             "scope": [
                 "variable.parameter.function.language.special.self.python",
                 "variable.parameter.function.language.special.cls.python",
+                "variable.language.special.self.python",
+                "variable.language.special.cls.python",
             ],
             "settings": {
                 "foreground": "#94558D",
