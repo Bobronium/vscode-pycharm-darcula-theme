@@ -796,7 +796,6 @@ Markdown
         },
         {
             "scope": [
-                "text.html.markdown markup.fenced_code.block",
                 "text.html.markdown markup.raw.block",
                 "text.html.markdown markup.inline.raw"
             ],
