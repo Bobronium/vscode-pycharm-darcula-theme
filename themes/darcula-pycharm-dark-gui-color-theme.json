@@ -279,16 +279,16 @@ Python
         },
         {
             "scope": [
-                "source.python constant.language",
-                "source.python constant.character.escape",
-                "source.python keyword.operator.logical",
-                "source.python constant.character.format.placeholder.other",
+                "constant.language.python",
+                "constant.character.escape.python",
+                "keyword.operator.logical.python",
+                "constant.character.format.placeholder.other.python",
                 "source.python meta.function storage.type.function ",
                 "source.python meta.class storage.type.class",
-                "source.python keyword.control.flow",
-                "source.python keyword.control.import",
-                "source.python storage.type.format",
-                "source.python storage.modifier"
+                "keyword.control.flow.python",
+                "keyword.control.import.python",
+                "storage.type.format.python",
+                "storage.modifier.python"
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -297,8 +297,8 @@ Python
         },
         {
             "scope": [
-                "source.python support.function.magic",
-                "source.python support.variable.magic"
+                "support.function.magic.python",
+                "support.variable.magic.python"
             ],
             "settings": {
                 "foreground": "#B200B2"
@@ -307,7 +307,7 @@ Python
         {
             "name": "Python block comments/multi-line strings",
             "scope": [
-                "source.python string.quoted"
+                "string.quoted.python"
             ],
             "settings": {
                 "foreground": "#6A8759",
@@ -316,7 +316,7 @@ Python
         },
         {
             "scope": [
-                "source.python string.quoted.docstring",
+                "string.quoted.docstring.python",
                 "source.python string.quoted.docstring punctuation.definition.string.begin",
                 "source.python string.quoted.docstring punctuation.definition.string.end"
             ],
@@ -338,7 +338,7 @@ Python
         {
             "name": "Python support types",
             "scope": [
-                "source.python support.type",
+                "support.type.python",
                 "source.python meta.function-call.arguments support.type", // Handle textmate bug involving class decorator args
                 "source.python meta.function-call support.function.builtin",
                 "source.python meta.item-access meta.item-access.arguments support.type",
@@ -350,7 +350,7 @@ Python
         {
             "name": "Python functions",
             "scope": [
-                "source.python entity.name.function"
+                "entity.name.function.python"
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -360,7 +360,7 @@ Python
         {
             "name": "Python binary strings",
             "scope": [
-                "source.python string.quoted.binary.single",
+                "string.quoted.binary.single.python",
                 "source.python string.quoted.binary.single punctuation.definition.string.begin",
                 "source.python string.quoted.binary.single punctuation.definition.string.end",
                 "source.python string.quoted.binary.single storage.type.string"
@@ -373,7 +373,7 @@ Python
         {
             "name": "Python inherited classes, reserved language variables",
             "scope": [
-                "source.python support.type.exception",
+                "support.type.exception.python",
                 "source.python meta.class.inheritance support.type.exception",
                 "source.python meta.class.inheritance support.type.metaclass",
             ],
@@ -579,7 +579,7 @@ NOTE: Django plugin is missing some HTML scopes. A few overrides are necessary h
 CSS
 */
         {
-            "scope": "source.css constant",
+            "scope": "constant.css",
             "settings": {
                 "foreground": "#6897BB",
             }
@@ -860,8 +860,8 @@ Shell Script
             "scope": [
                 "source.shell string.interpolated punctuation.definition",
                 "source.shell string.quoted punctuation.definition",
-                "source.shell support.function.builtin",
-                "source.shell keyword"
+                "support.function.builtin.shell",
+                "keyword.shell"
             ],
             "settings": {
                 "foreground": "#CC7832"
@@ -882,7 +882,7 @@ JSON
         {
             "name": "JSON strings",
             "scope": [
-                "source.json string.quoted.double"
+                "string.quoted.double.json"
             ],
             "settings": {
                 "foreground": "#6A8759",
@@ -892,8 +892,8 @@ JSON
             "name": "JSON punctuation",
             "scope": [
                 "source.json punctuation.separator.dictionary.key-value",
-                "source.json punctuation.separator.array",
-                "source.json constant.language"
+                "punctuation.separator.array.json",
+                "constant.language.json"
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -902,8 +902,8 @@ JSON
         {
             "name": "JSON comments",
             "scope": [
-                "source.json comment.block",
-                "source.json comment.block.documentation"
+                "comment.block.json",
+                "comment.block.documentation.json"
             ],
             "settings": {
                 "foreground": "#808080"
@@ -912,7 +912,7 @@ JSON
         {
             "name": "JSON strings",
             "scope": [
-                "source.json string.quoted.double",
+                "string.quoted.double.json",
             ],
             "settings": {
                 "foreground": "#6A8759",
@@ -921,11 +921,11 @@ JSON
         {
             "name": "JSON commas",
             "scope": [
-                "source.json punctuation.separator.dictionary.pair",
-                "source.json punctuation.separator.element",
-                "source.json punctuation.separator.arguments",
-                "source.json punctuation.separator.parameters",
-                "source.json punctuation.separator.continuation",
+                "punctuation.separator.dictionary.pair.json",
+                "punctuation.separator.element.json",
+                "punctuation.separator.arguments.json",
+                "punctuation.separator.parameters.json",
+                "punctuation.separator.continuation.json",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -937,7 +937,7 @@ JSON
         */
         {
             "scope": [
-                "source.json constant.character.escape.js",
+                "constant.character.escape.js.json",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -945,7 +945,7 @@ JSON
         },
         {
             "scope": [
-                "source.js string.regexp"
+                "string.regexp.js"
             ],
             "settings": {
                 "foreground": "#9876AA",
@@ -954,10 +954,10 @@ JSON
         },
         {
             "scope": [
-                "source.js keyword.operator.new.js",
-                "source.js keyword.operator.expression.js",
-                "source.js keyword.operator.cast.js",
-                "source.js keyword.operator.sizeof.js",
+                "keyword.operator.new.js.js",
+                "keyword.operator.expression.js.js",
+                "keyword.operator.cast.js.js",
+                "keyword.operator.sizeof.js.js",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -967,8 +967,8 @@ JSON
         {
             "name": "Javascript commas",
             "scope": [
-                "source.js punctuation.separator.comma",
-                "source.js punctuation.terminator.statement",
+                "punctuation.separator.comma.js",
+                "punctuation.terminator.statement.js",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -978,8 +978,8 @@ JSON
         {
             "name": "Javascript storage types",
             "scope": [
-                "source.js storage.type.class",
-                "source.js storage.type.interface",
+                "storage.type.class.js",
+                "storage.type.interface.js",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -990,7 +990,7 @@ JSON
             "name": "Javascript decorators",
             "scope": [
                 "source.js meta.decorator entity.name.function",
-                "source.js punctuation.decorator",
+                "punctuation.decorator.js",
             ],
             "settings": {
                 "foreground": "#BBB529"
@@ -1008,7 +1008,7 @@ JSON
         },
         {
             "scope": [
-                "source.js variable.other.property",
+                "variable.other.property.js",
             ],
             "settings": {
                 "foreground": "#9876AA" //"#8F5AAC"
@@ -1017,7 +1017,7 @@ JSON
         {
             "scope": [
                 "source.js meta.object.member variable.other.property",
-                "source.js variable.other.object.property",
+                "variable.other.object.property.js",
             ],
             "settings": {
                 "foreground": "#9876AA" //"#8F5AAC"
@@ -1026,8 +1026,8 @@ JSON
         {
             "name": "Javascript strings",
             "scope": [
-                "source.js string.quoted.single",
-                "source.js string.quoted.double",
+                "string.quoted.single.js",
+                "string.quoted.double.js",
             ],
             "settings": {
                 "foreground": "#6A8759"
@@ -1038,9 +1038,9 @@ Powershell
 */
         {
             "scope": [
-                "source.powershell keyword.control",
-                "source.powershell storage.type",
-                "source.powershell support.variable.automatic",
+                "keyword.control.powershell",
+                "storage.type.powershell",
+                "support.variable.automatic.powershell",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -1056,8 +1056,8 @@ Powershell
         },
         {
             "scope": [
-                "source.powershell entity.name.function",
-                "source.powershell support.function",
+                "entity.name.function.powershell",
+                "support.function.powershell",
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -1068,16 +1068,16 @@ Batchfile
 */
         {
             "scope": [
-                "source.batchfile keyword.control.repeat",
-                "source.batchfile keyword.control.statement",
-                "source.batchfile keyword.control.conditional",
-                "source.batchfile keyword.command",
-                "source.batchfile keyword.operator.at",
-                "source.batchfile keyword.operator.logical",
-                "source.batchfile keyword.operator.comparison",
-                "source.batchfile keyword.operator.assignment",
-                "source.batchfile keyword.operator.arithmetic",
-                "source.batchfile keyword.operator.redirection",
+                "keyword.control.repeat.batchfile",
+                "keyword.control.statement.batchfile",
+                "keyword.control.conditional.batchfile",
+                "keyword.command.batchfile",
+                "keyword.operator.at.batchfile",
+                "keyword.operator.logical.batchfile",
+                "keyword.operator.comparison.batchfile",
+                "keyword.operator.assignment.batchfile",
+                "keyword.operator.arithmetic.batchfile",
+                "keyword.operator.redirection.batchfile",
                 "source.batchfile keyword.other.special-method",
             ],
             "settings": {
@@ -1094,7 +1094,7 @@ Batchfile
         },
         {
             "scope": [
-                "source.batchfile keyword.command.rem",
+                "keyword.command.rem.batchfile",
             ],
             "settings": {
                 "foreground": "#808080",
@@ -1107,7 +1107,7 @@ Registry
             "scope": [
                 "source.reg entity.name.function.section.delete entity.section",
                 "source.reg entity.name.function.section.delete punctuation.definition.section",
-                "source.reg keyword.operator.arithmetic.minus",
+                "keyword.operator.arithmetic.minus.reg",
             ],
             "settings": {
                 "foreground": "#BBB529"
@@ -1124,8 +1124,8 @@ Registry
         },
         {
             "scope": [
-                "source.reg keyword.control.import",
-                "source.reg punctuation.definition.equals"
+                "keyword.control.import.reg",
+                "punctuation.definition.equals.reg"
             ],
             "settings": {
                 "foreground": "#9876AA",
@@ -1136,7 +1136,7 @@ INI
 */
         {
             "scope": [
-                "source.ini entity.name.section"
+                "entity.name.section.ini"
             ],
             "settings": {
                 "foreground": "#CC7832"
@@ -1144,7 +1144,7 @@ INI
         },
         {
             "scope": [
-                "source.ini keyword"
+                "keyword.ini"
             ],
             "settings": {
                 "foreground": "#9876AA"
@@ -1155,8 +1155,8 @@ TOML
 */
         {
             "scope": [
-                "source.toml keyword.key",
-                "source.toml entity.other",
+                "keyword.key.toml",
+                "entity.other.toml",
             ],
             "settings": {
                 "foreground": "#CC7832"
@@ -1164,7 +1164,7 @@ TOML
         },
         {
             "scope": [
-                "source.toml string.quoted.single.basic.line",
+                "string.quoted.single.basic.line.toml",
             ],
             "settings": {
                 "foreground": "#6A8759",
@@ -1183,8 +1183,8 @@ YAML
         },
         {
             "scope": [
-                "source.yaml entity.name",
-                "source.yaml variable.other",
+                "entity.name.yaml",
+                "variable.other.yaml",
             ],
             "settings": {
                 "foreground": "#E8BF6A",
@@ -1192,7 +1192,7 @@ YAML
         },
         {
             "scope": [
-                "source.yaml comment.line",
+                "comment.line.yaml",
             ],
             "settings": {
                 "foreground": "#629755",
@@ -1204,8 +1204,8 @@ Typescript
         {
             "name": "Typescript punctuation",
             "scope": [
-                "source.ts punctuation.separator.comma",
-                "source.ts punctuation.terminator.statement",
+                "punctuation.separator.comma.ts",
+                "punctuation.terminator.statement.ts",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -1214,11 +1214,11 @@ Typescript
         {
             "name": "Typescript builtins",
             "scope": [
-                "source.ts storage.type",
-                "source.ts storage.modifier",
-                "source.ts keyword.control",
-                "source.ts keyword.operator.expression",
-                "source.ts keyword.operator.new",
+                "storage.type.ts",
+                "storage.modifier.ts",
+                "keyword.control.ts",
+                "keyword.operator.expression.ts",
+                "keyword.operator.new.ts",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -1227,7 +1227,7 @@ Typescript
         {
             "name": "Typescript decorators",
             "scope": [
-                "source.ts punctuation.decorator",
+                "punctuation.decorator.ts",
                 "source.ts meta.decorator entity.name.function",
             ],
             "settings": {
@@ -1385,8 +1385,8 @@ SQL
 */
         {
             "scope": [
-                "source.sql keyword.other",
-                "source.plsql keyword.other",
+                "keyword.other.sql",
+                "keyword.other.plsql",
             ],
             "settings": {
                 "foreground": "#CC7832",
