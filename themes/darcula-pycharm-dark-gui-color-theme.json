@@ -136,6 +136,7 @@ Resources
         {
             "scope": [
                 "source",
+                "variable.language.special"  // self, cls outside of cls context
             ],
             "settings": {
                 "foreground": "#A9B7C6"
@@ -232,12 +233,6 @@ Resources
             }
         },
         {
-            "scope": "variable.language.special",
-            "settings": {
-                "foreground": "#94558D"
-            }
-        },
-        {
             "scope": "variable.language",
             "settings": {
                 "foreground": "#CC7832"
@@ -266,7 +261,8 @@ Python
 */
         {
             "scope": [
-                "source.python variable.parameter.function.language.special",
+                "variable.parameter.function.language.special.self.python",
+                "variable.parameter.function.language.special.cls.python",
             ],
             "settings": {
                 "foreground": "#94558D",
