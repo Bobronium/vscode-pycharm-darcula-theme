@@ -6,3 +6,6 @@ tempCodeRunnerFile*
 # VSCode Marketplace
 node_modules
 *.vsix
+
+# System
+.DS_Store
