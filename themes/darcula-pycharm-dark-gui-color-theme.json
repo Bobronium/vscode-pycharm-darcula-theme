@@ -136,7 +136,8 @@ Resources
         {
             "scope": [
                 "source",
-                "variable.language.special"  // self, cls outside of cls context
+                "variable.language.special",  // self, cls outside of cls context
+                "constant.other.caps",
             ],
             "settings": {
                 "foreground": "#A9B7C6"
@@ -263,9 +264,6 @@ Python
             "scope": [
                 "variable.parameter.function.language.special.self.python",
                 "variable.parameter.function.language.special.cls.python",
-                // semanticHighlighting
-                "selfParameter",
-                "clsParameter"
             ],
             "settings": {
                 "foreground": "#94558D",
@@ -274,7 +272,7 @@ Python
         },
         {
             "scope": [
-                "source.python meta.function-call.arguments variable.parameter.function-call",
+                "meta.function-call.arguments variable.parameter.function-call.python",
             ],
             "settings": {
                 "foreground": "#AA4926"
@@ -286,8 +284,8 @@ Python
                 "constant.character.escape.python",
                 "keyword.operator.logical.python",
                 "constant.character.format.placeholder.other.python",
-                "source.python meta.function storage.type.function ",
-                "source.python meta.class storage.type.class",
+                "meta.function storage.type.function .python",
+                "meta.class storage.type.class.python",
                 "keyword.control.flow.python",
                 "keyword.control.import.python",
                 "storage.type.format.python",
@@ -320,8 +318,8 @@ Python
         {
             "scope": [
                 "string.quoted.docstring.python",
-                "source.python string.quoted.docstring punctuation.definition.string.begin",
-                "source.python string.quoted.docstring punctuation.definition.string.end"
+                "string.quoted.docstring punctuation.definition.string.begin.python",
+                "string.quoted.docstring punctuation.definition.string.end.python"
             ],
             "settings": {
                 "foreground": "#629755",
@@ -331,8 +329,8 @@ Python
         {
             "name": "Python decorators",
             "scope": [
-                "source.python meta.function.decorator support.type", // Handle textmate bug involving class decorator args
-                "source.python meta.function.decorator entity.name.function.decorator ",
+                "meta.function.decorator support.type.python", // Handle textmate bug involving class decorator args
+                "meta.function.decorator entity.name.function.decorator .python",
             ],
             "settings": {
                 "foreground": "#BBB529"
@@ -342,9 +340,9 @@ Python
             "name": "Python support types",
             "scope": [
                 "support.type.python",
-                "source.python meta.function-call.arguments support.type", // Handle textmate bug involving class decorator args
-                "source.python meta.function-call support.function.builtin",
-                "source.python meta.item-access meta.item-access.arguments support.type",
+                "meta.function-call.arguments support.type.python", // Handle textmate bug involving class decorator args
+                "meta.function-call support.function.builtin.python",
+                "meta.item-access meta.item-access.arguments support.type.python",
             ],
             "settings": {
                 "foreground": "#8888C6"
@@ -364,9 +362,9 @@ Python
             "name": "Python binary strings",
             "scope": [
                 "string.quoted.binary.single.python",
-                "source.python string.quoted.binary.single punctuation.definition.string.begin",
-                "source.python string.quoted.binary.single punctuation.definition.string.end",
-                "source.python string.quoted.binary.single storage.type.string"
+                "string.quoted.binary.single punctuation.definition.string.begin.python",
+                "string.quoted.binary.single punctuation.definition.string.end.python",
+                "string.quoted.binary.single storage.type.string.python"
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -377,8 +375,8 @@ Python
             "name": "Python inherited classes, reserved language variables",
             "scope": [
                 "support.type.exception.python",
-                "source.python meta.class.inheritance support.type.exception",
-                "source.python meta.class.inheritance support.type.metaclass",
+                "meta.class.inheritance support.type.exception.python",
+                "meta.class.inheritance support.type.metaclass.python",
             ],
             "settings": {
                 "foreground": "#8888C6"
@@ -861,8 +859,8 @@ Shell Script
 */
         {
             "scope": [
-                "source.shell string.interpolated punctuation.definition",
-                "source.shell string.quoted punctuation.definition",
+                "string.interpolated punctuation.definition.shell",
+                "string.quoted punctuation.definition.shell",
                 "support.function.builtin.shell",
                 "keyword.shell"
             ],
@@ -876,7 +874,7 @@ JSON
         {
             "name": "JSON keys",
             "scope": [
-                "source.json meta.structure.dictionary support.type.property-name",
+                "meta.structure.dictionary support.type.property-name.json",
             ],
             "settings": {
                 "foreground": "#9876AA"
@@ -894,7 +892,7 @@ JSON
         {
             "name": "JSON punctuation",
             "scope": [
-                "source.json punctuation.separator.dictionary.key-value",
+                "punctuation.separator.dictionary.key-value.json",
                 "punctuation.separator.array.json",
                 "constant.language.json"
             ],
@@ -992,7 +990,7 @@ JSON
         {
             "name": "Javascript decorators",
             "scope": [
-                "source.js meta.decorator entity.name.function",
+                "meta.decorator entity.name.function.js",
                 "punctuation.decorator.js",
             ],
             "settings": {
@@ -1001,9 +999,9 @@ JSON
         },
         {
             "scope": [
-                "source.js meta.function meta.function-call",
-                "source.js meta.function meta.definition.function.js entity.name.function",
-                "source.js meta.function.expression.js entity.name.function",
+                "meta.function meta.function-call.js",
+                "meta.function meta.definition.function.js entity.name.function.js",
+                "meta.function.expression.js entity.name.function.js",
             ],
             "settings": {
                 "foreground": "#FFC66D"
@@ -1019,7 +1017,7 @@ JSON
         },
         {
             "scope": [
-                "source.js meta.object.member variable.other.property",
+                "meta.object.member variable.other.property.js",
                 "variable.other.object.property.js",
             ],
             "settings": {
@@ -1051,7 +1049,7 @@ Powershell
         },
         {
             "scope": [
-                "source.powershell support.variable.automatic variable.other.member",
+                "support.variable.automatic variable.other.member.powershell",
             ],
             "settings": {
                 "foreground": "#9876AA",
@@ -1081,7 +1079,7 @@ Batchfile
                 "keyword.operator.assignment.batchfile",
                 "keyword.operator.arithmetic.batchfile",
                 "keyword.operator.redirection.batchfile",
-                "source.batchfile keyword.other.special-method",
+                "keyword.other.special-method.batchfile",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -1089,7 +1087,7 @@ Batchfile
         },
         {
             "scope": [
-                "source.batchfile keyword.other.special-method",
+                "keyword.other.special-method.batchfile",
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -1108,8 +1106,8 @@ Registry
 */
         {
             "scope": [
-                "source.reg entity.name.function.section.delete entity.section",
-                "source.reg entity.name.function.section.delete punctuation.definition.section",
+                "entity.name.function.section.delete entity.section.reg",
+                "entity.name.function.section.delete punctuation.definition.section.reg",
                 "keyword.operator.arithmetic.minus.reg",
             ],
             "settings": {
@@ -1118,8 +1116,8 @@ Registry
         },
         {
             "scope": [
-                "source.reg entity.name.function.section.add entity.section",
-                "source.reg entity.name.function.section.add punctuation.definition.section",
+                "entity.name.function.section.add entity.section.reg",
+                "entity.name.function.section.add punctuation.definition.section.reg",
             ],
             "settings": {
                 "foreground": "#CC7832"
@@ -1178,7 +1176,7 @@ YAML
 */
         {
             "scope": [
-                "source.yaml string.unquoted entity.name.tag",
+                "string.unquoted entity.name.tag.yaml",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -1231,7 +1229,7 @@ Typescript
             "name": "Typescript decorators",
             "scope": [
                 "punctuation.decorator.ts",
-                "source.ts meta.decorator entity.name.function",
+                "meta.decorator entity.name.function.ts",
             ],
             "settings": {
                 "foreground": "#BBB529",
@@ -1240,10 +1238,10 @@ Typescript
         {
             "name": "Typescript class members",
             "scope": [
-                "source.ts meta.class variable.other.object.property",
-                "source.ts meta.class variable.other.property",
-                "source.ts meta.class variable.object.property",
-                "source.ts meta.class variable.other.property"
+                "meta.class variable.other.object.property.ts",
+                "meta.class variable.other.property.ts",
+                "meta.class variable.object.property.ts",
+                "meta.class variable.other.property.ts"
             ],
             "settings": {
                 "foreground": "#9876AA",
@@ -1253,10 +1251,10 @@ Typescript
         {
             "name": "Typescript variables",
             "scope": [
-                "source.ts meta.class variable.other.object.property",
-                "source.ts meta.class variable.other.property",
-                "source.ts meta.class variable.object.property",
-                "source.ts meta.class variable.other.property"
+                "meta.class variable.other.object.property.ts",
+                "meta.class variable.other.property.ts",
+                "meta.class variable.object.property.ts",
+                "meta.class variable.other.property.ts"
             ],
             "settings": {
                 "foreground": "#9876AA",
@@ -1266,11 +1264,11 @@ Typescript
         {
             "name": "Typescript function names",
             "scope": [
-                "source.ts meta.function-call entity.name.function",
-                "source.ts meta.definition.method entity.name.function",
-                "source.ts meta.definition.function entity.name.function",
-                "source.ts meta.function entity.name.function",
-                "source.ts meta.definition.variable entity.name.function",
+                "meta.function-call entity.name.function.ts",
+                "meta.definition.method entity.name.function.ts",
+                "meta.definition.function entity.name.function.ts",
+                "meta.function entity.name.function.ts",
+                "meta.definition.variable entity.name.function.ts",
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -1368,7 +1366,7 @@ DotEnv
 */
         {
             "scope": [
-                "source.env string.quoted constant.character.escape"
+                "string.quoted constant.character.escape.env"
             ],
             "settings": {
                 "foreground": "#6a8759",
@@ -1376,7 +1374,7 @@ DotEnv
         },
         {
             "scope": [
-                "source.env string.quoted string.interpolated",
+                "string.quoted string.interpolated.env",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -1401,7 +1399,7 @@ Dockerfile
 */
         {
             "scope": [
-                "source.dockerfile keyword.other.special-method",
+                "keyword.other.special-method.dockerfile",
             ],
             "settings": {
                 "foreground": "#CC7832",
