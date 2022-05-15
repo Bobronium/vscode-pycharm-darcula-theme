@@ -1,89 +1,35 @@
-# Change Log
+# Changelog
 
-## [0.1.0]
+## 0.1.0
 
-- Initial release
+- Fix python highlighting in embeded blocks of code (e.g. markdown code blocks)
 
-## [0.2.0]
+Semantic highlighting!
+- Partially fix self, cls variables highlighting
+  ```py
+  def f(self):  # self is highlighted here
+      self.i = 1  # and here
+  self = 'var'  # but not here
+  ```
+  Pycharm highlights first parameter of any method
+  This theme will highlight only self and cls parameters of any function or method regardless of their position.
+  Unfortunatyly, VSCode doesn't really understand how these parameters work.
 
-- Set docstrings to italic, improve statusbar
+- Fix higlighting in annotations
+  ```py
+  from typing import Any
+  a: type["Any"] = int  # type is highlighted, Any is highlighted as class
+  ```
+- Fix module __variables__ highlighting
+  ```py
+  if __name__ == '__main__':  # __name__ is not highlighted
+      print('yay')
+  ```
+- Fix highlighting of reassigned builtins
+    ```py
+    type('')  # type is highlighted here
+    type = 'variable'  # but not here
+    print(type)  # and not here
+    ```
 
-## [0.3.0]
-
-- Removed bold, lighter activity bar
-
-## [0.4.0]
-
-- Closer match on imported classes, keyward args, block comments, and add GUI themes
-
-## [0.5.0]
-
-- Add icon, Update title bar color
-
-## [0.6.0]
-
-- Fix status bar colors
-
-## [0.7.0]
-
-- Remove bold styling from python method self vars, better menu look, brighter terminal foreground
-
-## [0.8.0]
-
-- Add neutral syntax options for neutral colored foreground text
-
-## [0.8.1]
-
-- Orange debug status bar, muted dark terminal background, brighter ignored resource on GUI
-
-## [0.9.0]
-
-- Support for orange commas, Python3-style green highlighted strings, proper inheritance highlight for builtins, hightlighting of python support types
-
-## [0.9.1]
-
-- Rewrite for superior python support
-- Support for customizing base highlight color, DEPRECATE neutral themes because redudant
-- Improved dark and light GUI themes
-- Regex highlighting
-- Django and Jinja template support
-
-## [0.9.1]
-
-- Fix README sample images
-
-## [0.9.3]
-
-- Fix highlighting for python constants
-- Update display name and description
-
-## [0.9.4]
-
-- Support for DotEnv syntax
-
-## [0.9.5]
-
-- Improved description and README
-
-## [0.9.6]
-
-- Fix HTML script block closing tag bracket highlighting
-- Remove bold styling from HTML tags
-- Override vscode's default statusbar noFolder background color
-
-## [0.9.7]
-
-- Fix HTML style block closing tag bracket highlighting
-
-## [0.9.8]
-
-- Support for windows scripting syntaxes: powershell, cmd, registry scripts
-- Improved markdown
-
-## [0.9.9]
-
-- Fix python constants
-
-## [1.0.0]
-
-- Fix python constants
+See changelog for original theme on GitHub: [vscode-darcula-pycharm-theme/CHANGELOG.md](https://github.com/garytyler/vscode-darcula-pycharm-theme/blob/8ac67ce56a2c19856c3e80872e2bc51c65ba5b92/CHANGELOG.md)
