@@ -72,11 +72,11 @@
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "class": "#A9B7C6",
+        "property.builtin": "#B200B2",
         "*.builtin": "#8888C6",
         "method": "#A9B7C6",
         "variable": "#A9B7C6",
-        "property": "#A9B7C6",
-        "class": "#A9B7C6",
         "*.declaration": "#A9B7C6",
         "function.declaration": "#FFC66D",
         "method.declaration": "#FFC66D",
