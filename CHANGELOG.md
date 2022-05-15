@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Fix highlighting for decorator symbol (`@`)
+
 ## 0.1.1
 
 - Fix highlighting for `__magicmethods__`
