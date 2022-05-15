@@ -294,6 +294,8 @@ Python
             "scope": [
                 "meta.function.decorator support.type.python", // Handle textmate bug involving class decorator args
                 "meta.function.decorator entity.name.function.decorator .python",
+                "punctuation.definition.decorator.python",
+                "entity.name.function.decorator.python"
             ],
             "settings": {
                 "foreground": "#BBB529"
