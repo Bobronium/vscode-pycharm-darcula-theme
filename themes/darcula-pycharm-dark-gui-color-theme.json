@@ -1,15 +1,9 @@
 {
     "type": "dark",
     "colors": {
-        /*
-TitleBar
-*/
         "titleBar.activeBackground": "#313335",
         "titleBar.inactiveBackground": "#27292A",
         "titleBar.border": "#3C3F41",
-        /*
-Editor
-*/
         "editor.background": "#2B2B2B",
         "editor.lineHighlightBackground": "#323232",
         "editor.inactiveSelectionBackground": "#3a3d41",
@@ -24,9 +18,6 @@ Editor
         "editorCodeLens.foreground": "#565c63",
         "editorIndentGuide.background": "#373737",
         "editorIndentGuide.activeBackground": "#555555",
-        /*
-Tab
-*/
         "tab.border": "#555555", // diff
         "tab.hoverBackground": "#606466", // diff
         "tab.unfocusedHoverBackground": "#606466", // diff
@@ -36,92 +27,47 @@ Tab
         "tab.unfocusedActiveForeground": "#BBBBBB",
         "tab.unfocusedInactiveForeground": "#BBBBBB",
         "tab.inactiveBackground": "#3C3F41",
-        /*
-Breadcrumbs
-*/
         "breadcrumb.background": "#313335",
-        /*
-SideBar
-*/
         "sideBarSectionHeader.background": "#3C3F41", // diff
         "sideBarSectionHeader.border": "#505050", // diff
         "sideBar.border": "#464646", // diff
         "sideBar.foreground": "#A7A7A7", // diff
         "sideBar.background": "#27292A", // diff
-        /*
-List"#080303"
-*/
         "list.dropBackground": "#474B4D",
-        /*
-Panel
-*/
         "panel.border": "#4B4B4B", // diff
         "panelTitle.activeBorder": "#4A7A88",
         "panelTitle.activeForeground": "#D3D3D3",
         "panel.background": "#313335", // diff
         "panel.dropBackground": "#2B2B2B",
-        /*
-Activity Bar
-*/
         "activityBar.border": "#464646", // diff
         "activityBar.background": "#313335",
         "activityBar.foreground": "#C5C5C5", // diff
-        /*
-Terminal
-*/
         "terminal.background": "#252526",
         "terminal.foreground": "#BBBBBB",
-        /*
-Status Bar
-*/
-        // Foreground
         "statusBar.foreground": "#BBBBBB",
         "statusBar.debuggingForeground": "#cccccc",
-        // Background
         "statusBar.background": "#313335",
         "statusBar.debuggingBackground": "#864d30",
         "statusBar.noFolderBackground": "#313335",
-        // Border
         "statusBar.border": "#4B4B4B",
         "statusBar.noFolderBorder": "#4B4B4B",
         "statusBar.debuggingBorder": "#4B4B4B",
-        /*
-Menu
-*/
         "menu.foreground": "#ADADAD",
         "menu.border": "#505050",
         "menu.background": "#3C3F41",
-        /*
-List
-*/
         "list.hoverBackground": "#313335",
         "list.inactiveSelectionBackground": "#0D293E",
         "list.activeSelectionForeground": "#ADADAD",
-        /*
-Input
-*/
         "input.border": "#646464",
         "input.background": "#45494A",
         "input.foreground": "#BBBBBB",
-        /*
-Dropdown
-*/
         "dropdown.listBackground": "#646464",
         "dropdown.foreground": "#BBBBBB",
         "dropdown.border": "#646464",
-        /*
-Widgets
-*/
         "editorWidget.background": "#313335",
         "editorWidget.border": "#464646",
         "editorSuggestWidget.background": "#3C3F41",
-        /*
-Settings
-*/
         "settings.headerForeground": "#BBBBBB",
-        /*
-Resources
-*/
         "gitDecoration.ignoredResourceForeground": "#505050"
     },
     "semanticHighlighting": true,
