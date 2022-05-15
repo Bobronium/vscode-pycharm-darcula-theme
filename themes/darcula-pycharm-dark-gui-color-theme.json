@@ -124,6 +124,20 @@ Resources
 */
         "gitDecoration.ignoredResourceForeground": "#505050"
     },
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "*.builtin": "#8888C6",
+        "method": "#A9B7C6",
+        "variable": "#A9B7C6",
+        "property": "#A9B7C6",
+        "*.declaration": "#A9B7C6",
+        "function.declaration": "#FFC66D",
+        "method.declaration": "#FFC66D",
+        "builtinConstant": "#CC7832",  // True, False, None
+        "selfParameter": "#94558D",
+        "clsParameter": "#94558D",
+        "*.decorator": "#BBB529"
+    },
     "tokenColors": [
         {
             "scope": [
