@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Fix highlighting for `__magicmethods__`
+- Fix highlighting for builtin prperties like `__name__` or `__class__`
+
 ## 0.1.0
 
 - Fix python highlighting in embeded blocks of code (e.g. markdown code blocks)
