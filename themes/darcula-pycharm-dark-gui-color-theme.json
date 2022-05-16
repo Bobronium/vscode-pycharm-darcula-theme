@@ -68,7 +68,12 @@
         "editorWidget.border": "#464646",
         "editorSuggestWidget.background": "#3C3F41",
         "settings.headerForeground": "#BBBBBB",
-        "gitDecoration.ignoredResourceForeground": "#505050"
+        "gitDecoration.ignoredResourceForeground": "#505050",
+        // Pycharm: Error, Warning, Weak Warning
+        // VSCode:  Error, Warning, Information
+        "editorWarning.background": "#52503A",
+        "editorWarning.foreground": "#000000",
+        "editorInfo.foreground": "#aeae80",
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
