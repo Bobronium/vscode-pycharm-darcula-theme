@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.2
+## 0.2.0
 
 - Add highlighting for problems
   | PyCharm      | VSCode      |
@@ -12,6 +12,9 @@
   See Linting Highlighting section of the README.md
 - Add highlighting for docstrings
 - Fix highlighting for invalid characters
+
+## 0.1.2
+
 - Fix highlighting for decorator symbol (`@`)
 
 ## 0.1.1
