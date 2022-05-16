@@ -4,7 +4,7 @@
 
 Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=garytyler.darcula-pycharm) with several fixes and support for semantic highlighting, including Python 3.10 Structural Pattern Matching (`match:` `case:` syntax)
 
-* [Semantic highlighting](#enable-semantic-highlighting)
+* [Semantic highlighting](#enabling-semantic-highlighting)
 * [Linting highlighting](#linting-highlighting)
 * Optimized for [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) + support for many popular languages
 * Support for [MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython) RegEx highlighting (install separately)
