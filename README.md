@@ -1,6 +1,6 @@
 # Darcula Theme from PyCharm for VS Code
 
-![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/Bobronium.darcula-from-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/Bobronium.darcula-from-pycharm.svg) [![GitHub Repo stars](https://img.shields.io/github/stars/Bobronium/vscode-pycharm-darcula-theme?label=Star%20on%20GitHub&style=social)](https://github.com/Bobronium/vscode-pycharm-darcula-theme)
+![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/Bobronium.darcula-from-pycharm.svg) ![Downloads](https://marketplace.visualstudio.com/items?itemName=Bobronium.darcula-from-pycharm) [![GitHub Repo stars](https://img.shields.io/github/stars/Bobronium/vscode-pycharm-darcula-theme?label=Star%20on%20GitHub&style=social)](https://github.com/Bobronium/vscode-pycharm-darcula-theme)
 
 Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=garytyler.darcula-pycharm) with several fixes and support for semantic highlighting, including Python 3.10 Structural Pattern Matching (`match:` `case:` syntax)
 
