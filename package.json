@@ -2,7 +2,7 @@
     "name": "darcula-from-pycharm",
     "displayName": "Darcula Theme from PyCharm",
     "description": "Fork of Darcula PyCharm Theme with several fixes and support for semantic highlighting",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "MIT",
     "publisher": "Bobronium",
     "preview": false,
