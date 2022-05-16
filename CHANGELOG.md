@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+- Add highlighting for Python 3.10 match case syntax
+
 ## 0.2.1
 
 - Update readme
