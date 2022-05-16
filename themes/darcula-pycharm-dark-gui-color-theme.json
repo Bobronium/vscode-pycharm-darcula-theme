@@ -88,6 +88,7 @@
         "magicFunction.declaration": "#B200B2",
         "magicFunction": "#B200B2",
         "builtinConstant": "#CC7832",  // True, False, None
+        "keyword": "#CC7832",
         "selfParameter": "#94558D",
         "clsParameter": "#94558D",
         "*.decorator": "#BBB529"
