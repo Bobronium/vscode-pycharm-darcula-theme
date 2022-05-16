@@ -2,6 +2,16 @@
 
 ## 0.1.2
 
+- Add highlighting for problems
+  | PyCharm      | VSCode      |
+  |--------------|-------------|
+  | Error        | Error       |
+  | Warning      | Warning     |
+  | Weak Warning | Information |
+  
+  See Linting Highlighting section of the README.md
+- Add highlighting for docstrings
+- Fix highlighting for invalid characters
 - Fix highlighting for decorator symbol (`@`)
 
 ## 0.1.1
@@ -14,27 +24,35 @@
 - Fix python highlighting in embeded blocks of code (e.g. markdown code blocks)
 
 Semantic highlighting!
+
 - Partially fix self, cls variables highlighting
+
   ```py
   def f(self):  # self is highlighted here
       self.i = 1  # and here
   self = 'var'  # but not here
   ```
+
   Pycharm highlights first parameter of any method
   This theme will highlight only self and cls parameters of any function or method regardless of their position.
   Unfortunatyly, VSCode doesn't really understand how these parameters work.
 
 - Fix higlighting in annotations
+
   ```py
   from typing import Any
   a: type["Any"] = int  # type is highlighted, Any is highlighted as class
   ```
+
 - Fix module __variables__ highlighting
+
   ```py
   if __name__ == '__main__':  # __name__ is not highlighted
       print('yay')
   ```
+
 - Fix highlighting of reassigned builtins
+
     ```py
     type('')  # type is highlighted here
     type = 'variable'  # but not here
