@@ -4,11 +4,24 @@
 
 Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=garytyler.darcula-pycharm) with several fixes and support for semantic highlighting
 
-* Semantic highlighting
+* [Semantic highlighting](#enable-semantic-highlighting)
+* [Linting highlighting](#linting-highlighting)
 * Optimized for [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) + support for many popular languages
 * Support for [MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython) RegEx highlighting (install separately)
 * Jinja & Django Template support (See [Template Support](#template-support))
 * Overridable base highlight (See [Customization](#syntax-customization))
+
+## Enable Semantic highlighting
+
+1. Command + Shift + P
+2. Search settings.json & Open
+3. Paste the following in config
+
+    ```js
+        "editor.semanticTokenColorCustomizations.enabled": true,
+    ```
+
+[Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
 
 ## Linting highlighting
 
