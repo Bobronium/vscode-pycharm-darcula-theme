@@ -2,7 +2,7 @@
 
 ![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/Bobronium.darcula-from-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/Bobronium.darcula-from-pycharm.svg) [![GitHub Repo stars](https://img.shields.io/github/stars/Bobronium/vscode-pycharm-darcula-theme?label=Star%20on%20GitHub&style=social)](https://github.com/Bobronium/vscode-pycharm-darcula-theme)
 
-Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=garytyler.darcula-pycharm) with several fixes and support for semantic highlighting
+Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=garytyler.darcula-pycharm) with several fixes and support for semantic highlighting, including Python 3.10 Structural Pattern Matching (`match:` `case:` syntax)
 
 * [Semantic highlighting](#enable-semantic-highlighting)
 * [Linting highlighting](#linting-highlighting)
@@ -11,11 +11,16 @@ Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemN
 * Jinja & Django Template support (See [Template Support](#template-support))
 * Overridable base highlight (See [Customization](#syntax-customization))
 
-## Enable Semantic highlighting
+## Semantic Highlighting
 
-1. Command + Shift + P
+From [Semantic Highlighting Overview](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview)
+> Semantic highlighting enriches the syntax coloring based on symbol information from a language service that has the full understanding of the project.
+
+### Enabling semantic highlighting
+
+1. Press `⌘` `⇧` `P`
 2. Search settings.json & Open
-3. Paste the following in config
+3. Paste the following
 
     ```js
         "editor.semanticTokenColorCustomizations.enabled": true,
