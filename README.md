@@ -10,6 +10,26 @@ Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemN
 * Jinja & Django Template support (See [Template Support](#template-support))
 * Overridable base highlight (See [Customization](#syntax-customization))
 
+## Linting highlighting
+
+To better match PyCharm highlighting, put this in settings.json:
+```js
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUndefinedVariable": "error",
+        "reportImportCycles": "error",
+        "reportMissingImports": "error",
+        "reportMissingModuleSource": "error",
+    },
+    "python.linting.flake8CategorySeverity.F": "Warning",
+    "python.linting.flake8CategorySeverity.E": "Information",
+    "python.linting.flake8CategorySeverity.W": "Information",
+    "python.linting.mypyCategorySeverity.note": "Information",
+    "python.linting.mypyCategorySeverity.error": "Information",
+    "python.linting.pycodestyleCategorySeverity.E": "Information",
+```
+
+Then adjust to your liking.
+
 ## Template Support
 
 Use one of these plugins:
