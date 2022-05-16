@@ -13,6 +13,7 @@ Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemN
 ## Linting highlighting
 
 To better match PyCharm highlighting, put this in settings.json:
+
 ```js
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUndefinedVariable": "error",
@@ -29,6 +30,14 @@ To better match PyCharm highlighting, put this in settings.json:
 ```
 
 Then adjust to your liking.
+
+Colours match with PyCharm according to scheme:
+
+| PyCharm      | VSCode      |
+|--------------|-------------|
+| Error        | Error       |
+| Warning      | Warning     |
+| Weak Warning | Information |
 
 ## Template Support
 
