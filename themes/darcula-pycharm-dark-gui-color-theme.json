@@ -149,6 +149,15 @@
             }
         },
         {
+            "scope": [
+                "string.quoted.docstring.multi",
+            ],
+            "settings": {
+                "foreground": "#629755",
+                "fontStyle": "italic",
+            }
+        },
+        {
             "scope": "constant.numeric",
             "settings": {
                 "foreground": "#6897BB",
