@@ -68,7 +68,7 @@
         "editorWidget.border": "#464646",
         "editorSuggestWidget.background": "#3C3F41",
         "settings.headerForeground": "#BBBBBB",
-        "gitDecoration.ignoredResourceForeground": "#505050",
+        "gitDecoration.ignoredResourceForeground": "#808080",
         // Pycharm: Error, Warning, Weak Warning
         // VSCode:  Error, Warning, Information
         "editorWarning.background": "#52503A",
