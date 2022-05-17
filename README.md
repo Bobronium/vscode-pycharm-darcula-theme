@@ -88,3 +88,19 @@ To change the base text color, use a snippet like this in your `settings.json`
         },
     },
 ```
+
+## Known issues and inconsistencies
+
+### Limitations of current syntax scopes in VSCode
+
+* `self` and `cls` parameters highlighted as any function arguments in any positions
+* `mcs` is not highlighted
+* `self` and `cls` are highlighted even when overwritten
+* in comments containing codetags (`# TODO ...`) only codetags themselves are highlighted, as opposed to PyCharm where the whole line is highlighted
+* methods decorated with `@property` highlighted as properties instead of functions (which might be considered improvement)
+* in typehints enclosed in string literal, only resolved names are highlighted, as source, as opposed to PyCharm, where everything, including string literals highlighted as source
+* `__class__` attribute highlighted as magic, as opposed to PyCharm when it highlighted as source (though I have no idea why pycharm does so in the first place)
+
+### Bugs
+
+- `__magic_methods__` decorated with `functools.lru_cache` (potentially some other decorators as well) are highlighted as functions <https://github.com/microsoft/pylance-release/issues/2816>
