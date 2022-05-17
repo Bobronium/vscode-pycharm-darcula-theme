@@ -159,6 +159,16 @@
             }
         },
         {
+            "scope": [
+                "punctuation.separator.element.python",
+                "punctuation.separator.parameters.python"
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": "constant.numeric",
             "settings": {
                 "foreground": "#6897BB",
