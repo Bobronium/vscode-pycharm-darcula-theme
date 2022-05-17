@@ -1,10 +1,11 @@
 # Changelog
 
-## 0.3.2
+## 0.4.0
 
 - Add highlighting for commas
 - Add highlighting for [codetags](https://peps.python.org/pep-0350/) (`# TODO, FIXME, ...`)
 - Make ignored files names more visible in tabs
+- Add known issues section in the readme
 
 ## 0.3.1
 
