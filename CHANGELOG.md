@@ -3,6 +3,7 @@
 ## 0.3.2
 
 - Add highlighting for commas
+- Add highlighting for [codetags](https://peps.python.org/pep-0350/) (`# TODO, FIXME, ...`)
 - Make ignored files names more visible in tabs
 
 ## 0.3.1
