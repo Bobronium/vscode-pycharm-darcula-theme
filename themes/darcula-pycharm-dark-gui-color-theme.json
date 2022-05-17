@@ -161,7 +161,8 @@
         {
             "scope": [
                 "punctuation.separator.element.python",
-                "punctuation.separator.parameters.python"
+                "punctuation.separator.parameters.python",
+                "punctuation.separator.arguments.python",
             ],
             "settings": {
                 "foreground": "#CC7832",
