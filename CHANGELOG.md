@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+
+- Add support for [Python Sphinx Highlighter](https://marketplace.visualstudio.com/items?itemName=leonhard-s.python-sphinx-highlight)
+
 ## 0.4.0
 
 - Add highlighting for commas

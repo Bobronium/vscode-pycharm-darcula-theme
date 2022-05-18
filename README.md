@@ -2,12 +2,13 @@
 
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/Bobronium.darcula-from-pycharm.svg)](https://marketplace.visualstudio.com/items?itemName=Bobronium.darcula-from-pycharm) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/Bobronium.darcula-from-pycharm.svg)](https://marketplace.visualstudio.com/items?itemName=Bobronium.darcula-from-pycharm) [![GitHub Repo stars](https://img.shields.io/github/stars/Bobronium/vscode-pycharm-darcula-theme?label=Star%20on%20GitHub&style=social)](https://github.com/Bobronium/vscode-pycharm-darcula-theme)
 
-Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=garytyler.darcula-pycharm) with several fixes and support for semantic highlighting, including Python 3.10 Structural Pattern Matching (`match:` `case:` syntax)
+Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=garytyler.darcula-pycharm) with several fixes and support for semantic highlighting, including Python 3.10 Structural Pattern Matching (`match:` `case:` syntax), docstring highlighting and more.
 
 * [Semantic highlighting](#enabling-semantic-highlighting)
 * [Linting highlighting](#linting-highlighting)
 * Optimized for [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) + support for many popular languages
 * Support for [MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython) RegEx highlighting (install separately)
+* Support for [Python Sphinx Highlighter](https://marketplace.visualstudio.com/items?itemName=leonhard-s.python-sphinx-highlight) (install separately)
 * Jinja & Django Template support (See [Template Support](#template-support))
 * Overridable base highlight (See [Customization](#syntax-customization))
 
@@ -103,4 +104,4 @@ To change the base text color, use a snippet like this in your `settings.json`
 
 ### Bugs
 
-- `__magic_methods__` decorated with `functools.lru_cache` (potentially some other decorators as well) are highlighted as functions <https://github.com/microsoft/pylance-release/issues/2816>
+* `__magic_methods__` decorated with `functools.lru_cache` (potentially some other decorators as well) are highlighted as functions <https://github.com/microsoft/pylance-release/issues/2816>

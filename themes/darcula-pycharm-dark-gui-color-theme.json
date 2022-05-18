@@ -151,6 +151,16 @@
         },
         {
             "scope": [
+                "entity.name.tag.sphinx",
+                "punctuation.definition.interpreted.start.sphinx"
+            ],
+            "settings": {
+                "foreground": "#629755",
+                "fontStyle": "italic bold underline"
+            }
+        },
+        {
+            "scope": [
                 "string.quoted",
             ],
             "settings": {
