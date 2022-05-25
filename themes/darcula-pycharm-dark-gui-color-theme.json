@@ -69,6 +69,14 @@
         "editorSuggestWidget.background": "#3C3F41",
         "settings.headerForeground": "#BBBBBB",
         "gitDecoration.ignoredResourceForeground": "#808080",
+        "gitDecoration.modifiedResourceForeground": "#6897BB",
+        "gitDecoration.stageModifiedResourceForeground": "#6897BB",
+        "gitDecoration.untrackedResourceForeground": "#D1675A",
+        "gitDecoration.addedResourceForeground": "#629755",
+        "gitDecoration.renamedResourceForeground": "#629755",
+        "gitDecoration.deletedResourceForeground": "#6C6C6C",
+        "gitDecoration.stageDeletedResourceForeground": "#6C6C6C",
+        "gitDecoration.conflictingResourceForeground": "#D5756C",
         // Pycharm: Error, Warning, Weak Warning
         // VSCode:  Error, Warning, Information
         "editorWarning.background": "#52503A",
