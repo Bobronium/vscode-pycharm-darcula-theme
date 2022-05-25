@@ -71,12 +71,22 @@
         "gitDecoration.ignoredResourceForeground": "#808080",
         "gitDecoration.modifiedResourceForeground": "#6897BB",
         "gitDecoration.stageModifiedResourceForeground": "#6897BB",
+        "gitlens.decorations.modifiedForegroundColor": "#6897BB",
+        "gitlens.decorations.branchAheadForegroundColor": "#6897BB",
+        "gitlens.decorations.worktreeView.hasUncommittedChangesForegroundColor": "#6897BB",
         "gitDecoration.untrackedResourceForeground": "#D1675A",
+        "gitlens.decorations.untrackedForegroundColor": "#D1675A",
         "gitDecoration.addedResourceForeground": "#629755",
+        "gitlens.decorations.addedForegroundColor": "#629755",
+        "gitlens.decorations.branchUnpublishedForegroundColor": "#629755",
         "gitDecoration.renamedResourceForeground": "#629755",
+        "gitlens.decorations.renamedForegroundColor": "#629755",
         "gitDecoration.deletedResourceForeground": "#6C6C6C",
         "gitDecoration.stageDeletedResourceForeground": "#6C6C6C",
+        "gitlens.decorations.deletedForegroundColor": "#6C6C6C",
         "gitDecoration.conflictingResourceForeground": "#D5756C",
+        "gitlens.decorations.ignoredForegroundColor": "#D5756C",
+
         // Pycharm: Error, Warning, Weak Warning
         // VSCode:  Error, Warning, Information
         "editorWarning.background": "#52503A",
