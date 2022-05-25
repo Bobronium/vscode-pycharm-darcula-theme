@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0
+
+- Add file status colors (working tree, tabs, source control)
+
 ## 0.5.0
 
 - Add support for [Python Sphinx Highlighter](https://marketplace.visualstudio.com/items?itemName=leonhard-s.python-sphinx-highlight)

@@ -2,7 +2,7 @@
     "name": "darcula-from-pycharm",
     "displayName": "Darcula Theme from PyCharm",
     "description": "Semantic & Linting Highlighting, Templates & RegEx support and more.",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "license": "MIT",
     "publisher": "Bobronium",
     "preview": false,
@@ -43,10 +43,11 @@
         "linting"
     ],
     "contributes": {
-        "themes": [{
+        "themes": [
+            {
                 "label": "Darcula from Pycharm (Dark)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-dark-gui-color-theme.json"
+                "path": "./themes/darcula-from-pycharm.json"
             }
         ]
     }

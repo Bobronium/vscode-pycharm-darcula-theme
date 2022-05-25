@@ -11,6 +11,7 @@ Fork of [Darcula PyCharm Theme](https://marketplace.visualstudio.com/items?itemN
 * Support for [Python Sphinx Highlighter](https://marketplace.visualstudio.com/items?itemName=leonhard-s.python-sphinx-highlight) (install separately)
 * Jinja & Django Template support (See [Template Support](#template-support))
 * Overridable base highlight (See [Customization](#syntax-customization))
+* [File status colors](#file-status-colors)
 
 ## Semantic Highlighting
 
@@ -66,6 +67,16 @@ Use one of these plugins:
 * [Better Jinja](https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml)
 * [Django plugin](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
 * [Django Template plugin](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)
+
+# Fils Status Colors
+
+Until https://github.com/microsoft/vscode/issues/119023 is resolved, I'd recommend to add this to `settings.json`
+
+```js
+    "problems.decorations.enabled": false,
+```
+
+Otherwise, VSCode will override file color with red if it has any problems. In the meanwhile, you can use Problems panel instead.
 
 ## Syntax Customization
 
