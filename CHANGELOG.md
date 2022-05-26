@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.1
+
+- Fix highlighting for class parameters
+
 ## 0.6.0
 
 - Add file status colors (working tree, tabs, source control)
