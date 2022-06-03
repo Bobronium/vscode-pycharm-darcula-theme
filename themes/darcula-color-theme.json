@@ -103,6 +103,7 @@
         "*.builtin": "#8888C6",
         "method": "#A9B7C6",
         "variable": "#A9B7C6",
+        "parameter": "#A9B7C6",
         "*.declaration": "#A9B7C6",
         "function.declaration": "#FFC66D",
         "method.declaration": "#FFC66D",
