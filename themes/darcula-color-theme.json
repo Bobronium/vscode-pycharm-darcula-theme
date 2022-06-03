@@ -13,6 +13,9 @@
         "editorRuler.foreground": "#464646",
         "editorGutter.background": "#313335",
         "editorGroup.border": "#505050",
+        "editorBracketMatch.border": "#c3ff0085",
+        "editorBracketMatch.background": "#444444",
+        "editorOverviewRuler.bracketMatchForeground": "#ff0000",
         "editorGroupHeader.tabsBorder": "#505050",
         "editorGroupHeader.tabsBackground": "#27292A", // diff
         "editorCodeLens.foreground": "#565c63",
