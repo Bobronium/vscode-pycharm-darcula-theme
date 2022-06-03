@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.0
+
+- Handle parameters that shadow builtin names
+- Make brackets pair highlighting brighter
+
 ## 0.6.1
 
 - Fix highlighting for class parameters
