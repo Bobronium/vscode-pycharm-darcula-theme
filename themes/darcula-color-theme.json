@@ -302,6 +302,7 @@ Python
         {
             "scope": [
                 "meta.function-call.arguments variable.parameter.function-call.python",
+                "meta.class.inheritance support.type.metaclass.python",
                 "variable.parameter.class.python"
             ],
             "settings": {
@@ -408,7 +409,6 @@ Python
             "scope": [
                 "support.type.exception.python",
                 "meta.class.inheritance support.type.exception.python",
-                "meta.class.inheritance support.type.metaclass.python",
             ],
             "settings": {
                 "foreground": "#8888C6"
