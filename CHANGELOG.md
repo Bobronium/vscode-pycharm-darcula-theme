@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.0
+
+- Fix parameters names on function calls, while breaking recognition for parameters that shadow builtin types (see https://github.com/microsoft/pylance-release/issues/2913)
+
 ## 0.7.0
 
 - Handle parameters that shadow builtin names
