@@ -286,6 +286,24 @@
                 "fontStyle": ""
             }
         },
+        {
+            "scope": [
+                "constant.language",
+                "constant.character.escape",
+                "keyword.operator.logical",
+                "constant.character.format.placeholder.other",
+                "meta.function storage.type.function",
+                "meta.class storage.type.class",
+                "keyword.control.flow",
+                "keyword.control.import",
+                "storage.type.format",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            },
+        },
         /*
 Python
 */
@@ -894,7 +912,8 @@ Shell Script
                 "string.interpolated punctuation.definition.shell",
                 "string.quoted punctuation.definition.shell",
                 "support.function.builtin.shell",
-                "keyword.shell"
+                "keyword.shell",
+                "entity.name.command.shell"
             ],
             "settings": {
                 "foreground": "#CC7832"
