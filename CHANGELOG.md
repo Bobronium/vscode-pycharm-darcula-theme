@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.0 Pre-Release
+
+- Use colors from [PyCharm New UI Preview](https://blog.jetbrains.com/idea/2022/05/take-part-in-the-new-ui-preview-for-your-jetbrains-ide/) (old colors are not available in this release)
+
 ## 0.8.0
 
 - Fix parameters names on function calls, while breaking recognition for parameters that shadow builtin types (see https://github.com/microsoft/pylance-release/issues/2913)

@@ -2,14 +2,14 @@
     "name": "darcula-from-pycharm",
     "displayName": "Darcula Theme from PyCharm",
     "description": "Semantic & Linting Highlighting, Templates & RegEx support and more.",
-    "version": "0.8.0",
+    "version": "0.9.0",
     "license": "MIT",
     "publisher": "Bobronium",
     "preview": false,
     "repository": "https://github.com/Bobronium/vscode-pycharm-darcula-theme",
     "icon": "images/icon.png",
     "engines": {
-        "vscode": "^1.21.0"
+        "vscode": "^1.63.0"
     },
     "categories": [
         "Themes"
